@@ -52,25 +52,6 @@ var _ = window.SlideShow = function(slide) {
 	// Current .delayed item in the slide
 	this.item = 0;
 
-	// Create timer, if needed
-	this.duration = body.getAttribute('data-duration');
-
-	if(this.duration > 0) {
-		var timer = document.createElement('div');
-
-		timer.id = 'timer';
-		timer.setAttribute('style', PrefixFree.prefixCSS('transition-duration: ' + this.duration * 60 + 's;'));
-		body.appendChild(timer);
-
-		addEventListener('load', function() {
-			timer.className = 'end';
-
-			setTimeout(function() {
-				timer.classList.add('overtime');
-			}, me.duration * 60000);
-		});
-	}
-
 	// Create slide indicator
 	this.indicator = document.createElement('div');
 
