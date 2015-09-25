@@ -18,13 +18,19 @@
 img[src*=isaac]      { top: 25%; left: 36%; }
 img[src*=judas]      { top: 32%; left: 59%; }
 img[src*=cain]       { top: 54%; left: 30%; }
-img[src*=lazarus]    { top: 80%; left: 68%; }
+img[src*=lazarus]    { top: 69%; left: 75%; }
 img[src*=maggie]     { top: 50%; left: 78%; }
 img[src*=samson]     { top: 41%; left: 44%; }
 img[src*=eve]        { top: 70%; left: 10%; }
 img[src*=dark_judas] { top: 30%; left: 17%; }
 img[src*=lost]       { top: 61%; left: 59%; }
-img[src*=blue_baby]  { top: 75%; left: 40%; }
+img[src*=blue_baby]  { top: 65%; left: 40%; }
+
+#why {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
 
 
 #who .delayed.displayed {
