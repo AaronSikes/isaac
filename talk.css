@@ -4,6 +4,37 @@
 	border: 0;
 }
 
+#biblethump {
+	background-image: url(img/biblethump.jpg);
+  background-size: contain;
+	margin: 30px;
+	border: 0;
+}
+
+#who img {
+  position: absolute;
+}
+
+img[src*=isaac]      { top: 25%; left: 36%; }
+img[src*=judas]      { top: 32%; left: 59%; }
+img[src*=cain]       { top: 54%; left: 30%; }
+img[src*=lazarus]    { top: 80%; left: 68%; }
+img[src*=maggie]     { top: 50%; left: 78%; }
+img[src*=samson]     { top: 41%; left: 44%; }
+img[src*=eve]        { top: 70%; left: 10%; }
+img[src*=dark_judas] { top: 30%; left: 17%; }
+img[src*=lost]       { top: 61%; left: 59%; }
+img[src*=blue_baby]  { top: 75%; left: 40%; }
+
+
+#who .delayed.displayed {
+  opacity: 1 !important;
+}
+
+#who .delayed {
+	transition:.2s;
+}
+
 #intro h1 {
 	width: 60%;
 	min-height: 500px;
@@ -12,18 +43,6 @@
 
 #css-controls-demo label {
 	display: block;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:0) {
-/* hack to avoid using the Object element in Safari/WebKit, due to WebKit Bug 27190 */
-	object[type="image/svg+xml"] {
-		display: none;
-	}
-	
-	#intro h1 {
-		background: url(logo.svg) no-repeat center;
-		background-size:100% auto;
-	}
 }
 
 .image.slide {
