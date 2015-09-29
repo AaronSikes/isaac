@@ -1,5 +1,5 @@
-# CSSS
-### CSS-based SlideShow System
+# The Binding of Isaac
 
-Warning: Only works in latest Firefox, Opera, Safari or Chrome.
-For more information, see the [sample slideshow](http://lea.verou.me/csss/sample-slideshow.html) 
+Slides for a 20-min hallway talk about.
+
+Slideshow code forked from https://github.com/leaverou/csss
